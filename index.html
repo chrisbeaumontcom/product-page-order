@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <title>Career Resellers App</title>
+  </head>
+  <body>
+    <div
+      class="container-fluid"
+      style="
+        border-bottom: 1px solid #eee;
+        height: 138px;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        background-color: white; ;
+      "
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col pt-4" style="">
+            <!-- <p id="bagdisplay" style="float: right"></p> -->
+
+            <!-- LG  -->
+            <ul
+              class=""
+              style="
+                float: right;
+                width: 350px;
+                margin-left: auto;
+                display: flex;
+                justify-content: right;
+                list-style-type: none;
+                border: 1px dotted red;
+                font-size: 0.8em;
+              "
+              aria-hidden="true"
+            >
+              <li class="nav-item">
+                <a class="nav-link nav-link-norm p-2" href="/account/logout"
+                  ><img
+                    style="width: 20px; height: auto"
+                    src="https://www.gloweavecareer.com//img/icons/header-icon-logout-36px.png"
+                    title="Log Out"
+                  /><span class="d-none d-md-inline">Log Out</span></a
+                >
+              </li>
+              <li class="nav-item cart-nav-item-empty">
+                <a class="nav-link nav-link-norm p-2" href="/checkout"
+                  ><img
+                    style="width: 20px; height: auto"
+                    src="https://www.gloweavecareer.com//img/icons/header-icon-cart-empty-36px.png"
+                    title="Cart"
+                  />Cart</a
+                >
+              </li>
+              <li class="nav-item cart-nav-item">
+                <a class="nav-link nav-link-norm p-2" href="/checkout" style="position: relative"
+                  ><img
+                    style="width: 20px; height: auto"
+                    src="https://www.gloweavecareer.com//img/icons/header-icon-cart-full-36px.png"
+                    title="Cart" />Cart<span class="cartdisplay" id="bagdisplay"></span
+                ></a>
+              </li>
+            </ul>
+
+            <h1 id="style" data-id="26">Stock Picker</h1>
+            <p>1637L GINGHAM LONG SLEEVE SHIRT</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div id="app"></div>
+        </div>
+      </div>
+    </div>
+    <!-- <style>
+      dialog::backdrop {
+        background-color: rgba(30, 30, 30, 0.4);
+      }
+      dialog {
+        border: 1px solid #aaa;
+        border-radius: 8px;
+      }
+      .btn-close {
+      }
+    </style>
+    <dialog>
+      <p>Please contact customer service</p>
+      <form class="text-right" method="dialog">
+        <button class="btn btn-primary btn-sm btn-close" value="close">OK</button>
+      </form>
+    </dialog>
+    <script>
+      //(function () {
+      //let dialog = document.querySelector("dialog");
+      //dialog.showModal();
+      //dialog.addEventListener("close", () => {
+      //  alert("Close return: " + dialog.returnValue);
+      //});
+      //})();
+    </script> -->
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

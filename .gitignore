@@ -1,0 +1,8 @@
+node_modules
+.DS_Store
+dist
+dist-ssr
+*.local
+.env*
+.env.local
+update-files.cjs
